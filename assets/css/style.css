@@ -366,7 +366,7 @@ textarea.form_control {
 .header-navigation .nav-right-item .nav-call-button span a:hover,
 .top-bar.text-white .top-right ul.social-link li a:hover,
 .top-bar .top-right ul.social-link li a:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .p-r {
@@ -394,7 +394,7 @@ textarea.form_control {
     align-items: center;
     font-weight: 600;
     text-transform: uppercase;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .sub-title:before,
@@ -416,12 +416,14 @@ textarea.form_control {
     background: url(../images/prev-arrow.png);
     -webkit-margin-end: 25px;
     margin-inline-end: 25px;
+    filter: brightness(0.3);
 }
 
 .sub-title:after {
     background: url(../images/next-arrow.png);
     -webkit-margin-start: 25px;
     margin-inline-start: 25px;
+    filter: brightness(0.3);
 }
 
 .section-title .sub-title {
@@ -481,7 +483,7 @@ ul.ratings li {
 
 ul.ratings li i {
     font-size: 14px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 /*===== All Bg =====*/
@@ -491,8 +493,8 @@ ul.ratings li i {
 }
 
 .dark-red-bg {
-    /* background-color: #DF3F00; */
-    background: linear-gradient(90deg, #FF7A00, #FFA726);
+    /* background-color: #852e3e; */
+    background: #852e3e;
 }
 
 .light-red-bg {
@@ -536,13 +538,13 @@ button {
 }
 
 .main-btn.btn-red {
-    /* background-color: #DF3F00; */
-    background: linear-gradient(90deg, #FF7A00, #FFA726);
-
+    /* background-color: #852e3e; */
+    background: linear-gradient(90deg, #852e3e, #600717);
+transition: 0.4s;
 }
 
 .main-btn.btn-red:hover {
-    background: linear-gradient(170deg, #FF7A00, #FFA726);
+    background: linear-gradient(70deg, #852e3e, #300109);
 
     color: #fff;
 }
@@ -552,7 +554,7 @@ button {
 }
 
 .main-btn.btn-black:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -567,7 +569,7 @@ button {
 }
 
 .main-btn.filled-btn:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     border-color: transparent;
 }
@@ -589,7 +591,7 @@ button {
 }
 
 .btn-link:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .btn-link:hover i {
@@ -849,7 +851,7 @@ button {
 .preloader .pre-box {
     width: 50px;
     height: 50px;
-    background: #DF3F00;
+    background: #852e3e;
     -webkit-animation: loaderAnimate 0.5s linear infinite;
     animation: loaderAnimate 0.5s linear infinite;
     position: absolute;
@@ -934,7 +936,7 @@ button {
 /*====== Start Back to top css ======*/
 
 .back-to-top {
-    background: #DF3F00;
+    background: #852e3e;
     border-radius: 50%;
     bottom: 30px;
     color: #fff;
@@ -1353,7 +1355,7 @@ button {
 }
 
 .header-navigation .nav-right-item .search-button .search-btn:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .header-navigation .nav-right-item .nav-call-button {
@@ -1477,7 +1479,7 @@ button {
 }
 
 .header-navigation .main-menu ul>li .sub-menu li a:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .header-navigation .main-menu ul>li .sub-menu li .sub-menu {
@@ -1490,11 +1492,11 @@ button {
 }
 
 .header-navigation .main-menu ul>li .sub-menu li:hover>a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .header-navigation .main-menu ul>li:hover>a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .header-navigation .main-menu ul>li:hover>.sub-menu {
@@ -1579,7 +1581,7 @@ button {
     width: 25px;
     border-radius: 3px;
     z-index: 2;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     cursor: pointer;
     color: #fff;
     font-size: 16px;
@@ -1660,7 +1662,7 @@ button {
 
 .navigation-one .primary-menu .site-branding .brand-logo {
     padding: 20px 35px;
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 @media (max-width: 991px) {
@@ -1676,7 +1678,7 @@ button {
 }
 
 .navigation-two .primary-menu .site-branding .brand-logo {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     padding: 20px 35px;
 }
 
@@ -1703,7 +1705,7 @@ button {
 }
 
 .navigation-white.header-navigation .main-menu ul>li:hover>a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .navigation-white.header-navigation .navbar-toggler {
@@ -1719,7 +1721,7 @@ button {
 }
 
 .navigation-white.header-navigation .nav-right-item .search-button .search-btn:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .navigation-white.header-navigation .nav-right-item .nav-call-button span a {
@@ -1737,7 +1739,7 @@ button {
 
 .navigation-white.header-navigation.sticky .nav-right-item .menu-button .main-btn.btn-red:hover {
     background-color: #fff;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .navigation-white.header-navigation.sticky .navbar-toggler {
@@ -2046,7 +2048,7 @@ button {
 
 .hero-arrows .slick-arrow.next,
 .hero-arrows .slick-arrow:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -2095,7 +2097,7 @@ button {
 }
 
 .page-banner .page-banner-content ul.breadcrumb-link {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -2222,7 +2224,7 @@ button {
 
 .fancy-icon-box .icon i {
     font-size: 60px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2285,7 +2287,7 @@ button {
 }
 
 .single-features-item:hover .icon {
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 .single-features-item:hover .icon i {
@@ -2307,7 +2309,7 @@ button {
 
 .single-features-item .icon i {
     font-size: 80px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-features-item .text h3.title {
@@ -2332,7 +2334,7 @@ button {
 }
 
 .single-features-item-two:hover .icon {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-color: transparent;
 }
 
@@ -2398,7 +2400,7 @@ button {
 }
 
 .single-category-item:hover .content h3.title {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-category-item .icon {
@@ -2754,7 +2756,7 @@ button {
 }
 
 .menu-grid-item-one:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-color: transparent;
 }
 
@@ -2809,7 +2811,7 @@ button {
 .menu-grid-item-one .text span.price {
     font: 400 27px "Forum", cursive;
     line-height: 30px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .menu-grid-item-two {
@@ -2823,7 +2825,7 @@ button {
 }
 
 .menu-grid-item-two:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 .menu-grid-item-two:hover .hover-content,
@@ -2838,7 +2840,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(179.41deg, rgba(223, 63, 0, 0.1) 0.51%, #DF3F00 59.86%);
+    background: linear-gradient(179.41deg, rgba(223, 63, 0, 0.1) 0.51%, #852e3e 59.86%);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: all 0.4s ease-out 0s;
@@ -2948,7 +2950,7 @@ button {
 .menu-grid-item-two .text span.price {
     font: 400 27px "Forum", cursive;
     line-height: 30px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 /*---==================
@@ -2970,7 +2972,7 @@ button {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .video-one_image-box .play-content-box .video-popup i {
@@ -3008,7 +3010,7 @@ button {
     border-radius: 50%;
     background-color: rgba(223, 63, 0, 0.1);
     font-size: 20px;
-    color: #DF3F00;
+    color: #852e3e;
     -webkit-margin-end: 10px;
     margin-inline-end: 10px;
 }
@@ -3055,11 +3057,11 @@ ul.slick-dots li:after {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 ul.slick-dots li.slick-active {
-    border-color: #DF3F00;
+    border-color: #852e3e;
 }
 
 .check-style-one li {
@@ -3101,7 +3103,7 @@ ul.slick-dots li.slick-active {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     font-size: 12px;
 }
 
@@ -3219,7 +3221,7 @@ ul.slick-dots li.slick-active {
 }
 
 .single-history-item .history-content-box span.duration {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     padding: 13px 25px;
     color: #fff;
     font: 400 27px "Forum", cursive;
@@ -3347,7 +3349,7 @@ ul.slick-dots li.slick-active {
 }
 
 .single-info-box .info p:hover>a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-progress-bar {
@@ -3363,13 +3365,13 @@ ul.slick-dots li.slick-active {
 }
 
 .single-progress-bar .progress-bar {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     height: 1px;
     margin-bottom: 5px;
 }
 
 .single-progress-bar .progress {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-radius: 0;
     height: 3px;
 }
@@ -3398,7 +3400,7 @@ ul.slick-dots li.slick-active {
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3484,7 +3486,7 @@ ul.slick-dots li.slick-active {
 }
 
 .qichen-pagination ul li a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-color: transparent;
     color: #fff;
 }
@@ -3525,7 +3527,7 @@ ul.slick-dots li.slick-active {
 .gallery-filter-button .filter-btn li.active,
 .gallery-filter-button .filter-btn li:hover {
     color: #fff;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-color: transparent;
 }
 
@@ -3572,7 +3574,7 @@ ul.slick-dots li.slick-active {
 }
 
 .single-gallery-item .gallery-img .gallery-overlay .hover-content .cat-btn {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     display: inline-block;
     padding: 10px 25px;
     color: #fff;
@@ -3639,7 +3641,7 @@ ul.slick-dots li.slick-active {
 }
 
 .gallery-item-one .gallery-img .hover-overlay .tag-btn {
-    color: #DF3F00;
+    color: #852e3e;
     margin-bottom: 10px;
 }
 
@@ -3656,7 +3658,7 @@ ul.slick-dots li.slick-active {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     -webkit-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
@@ -3699,7 +3701,7 @@ ul.slick-dots li.slick-active {
     height: 60px;
     border-radius: 50%;
     background-color: #fff;
-    color: #DF3F00;
+    color: #852e3e;
     -webkit-transform: translateY(20px);
     transform: translateY(20px);
     -webkit-transition: all 0.4s ease-out 0s;
@@ -4093,7 +4095,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .testimonial-arrows .slick-arrow:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -4188,7 +4190,7 @@ form.reservation-form .nice-select ul.list {
 .single-testimonial-one .testimonial-inner-content {
     background-color: #0E1317;
     padding: 35px 60px 50px;
-    border: 1px solid #DF3F00;
+    border: 1px solid #852e3e;
 }
 
 @media (max-width: 991px) {
@@ -4237,7 +4239,7 @@ form.reservation-form .nice-select ul.list {
 
 .single-testimonial-one .testimonial-inner-content .author-quote-box .quote i {
     font-size: 80px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 @media (max-width: 991px) {
@@ -4331,7 +4333,7 @@ form.reservation-form .nice-select ul.list {
 
 .single-testimonial-three .testimonial-inner-content .rating-quote-box .quote i {
     font-size: 42px;
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-testimonial-three .testimonial-inner-content>h3 {
@@ -4451,7 +4453,7 @@ form.reservation-form .nice-select ul.list {
 .single-team-item .chef-img .hover-content p.position {
     padding: 5px 15px;
     display: inline-block;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     font: 500 14px "Open Sans", sans-serif;
     color: #fff;
 }
@@ -4518,7 +4520,7 @@ form.reservation-form .nice-select ul.list {
 .single-team-item-two .chef-img .hover-content p.position {
     padding: 5px 15px;
     display: inline-block;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     font: 500 14px "Open Sans", sans-serif;
     color: #fff;
     margin-bottom: 10px;
@@ -4535,7 +4537,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .single-team-item-two .chef-img .hover-content ul.social-link li a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -4601,7 +4603,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .faq-tabs-box .faq-tabs ul li button.active {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-color: transparent;
     color: #fff;
 }
@@ -4728,7 +4730,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .product-search-filter .filter-category>ul>li a:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-product-item {
@@ -4774,7 +4776,7 @@ form.reservation-form .nice-select ul.list {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     font: 400 24px "Forum", cursive;
     color: #fff;
     line-height: 26px;
@@ -4811,11 +4813,11 @@ form.reservation-form .nice-select ul.list {
 }
 
 .single-product-item .product-info h3.title:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .single-product-item .product-info span.price {
-    color: #DF3F00;
+    color: #852e3e;
     font: 400 27px "Forum", cursive;
     line-height: 30px;
 }
@@ -4894,7 +4896,7 @@ form.reservation-form .nice-select ul.list {
 .product-details-wrapper .product-info span.price {
     font-size: 20px;
     line-height: 27px;
-    color: #DF3F00;
+    color: #852e3e;
     margin-bottom: 10px;
 }
 
@@ -4907,7 +4909,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .product-details-wrapper .product-info ul.ratings li span:hover a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .product-details-wrapper .product-info>p {
@@ -4972,7 +4974,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .product-details-wrapper .product-info ul.social-link li a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -5005,7 +5007,7 @@ form.reservation-form .nice-select ul.list {
     content: "";
     width: 100%;
     height: 2px;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     visibility: hidden;
     opacity: 0;
 }
@@ -5065,7 +5067,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .products-sidebar-area .product-search-widget form .form_control {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     border-radius: 5px;
     font-size: 16px;
     color: #fff;
@@ -5135,7 +5137,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .products-sidebar-area .price-range-widget .ui-slider-range {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     height: 3px;
 }
 
@@ -5147,7 +5149,7 @@ form.reservation-form .nice-select ul.list {
     width: 10px;
     border-radius: 50%;
     border: none;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     outline: none;
     cursor: pointer;
 }
@@ -5185,7 +5187,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .products-sidebar-area .recent-products-widget .product-item .info h6:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .products-sidebar-area .recent-products-widget .product-item .info span.price {
@@ -5206,7 +5208,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .products-sidebar-area .product-tag-cloud a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     border-color: transparent;
 }
@@ -5300,11 +5302,11 @@ form.reservation-form .nice-select ul.list {
 }
 
 .post-meta ul li span:hover a {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .post-meta ul li span.cat-btn {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     font-weight: 600;
     font-size: 14px;
     color: #fff;
@@ -5361,7 +5363,7 @@ form.reservation-form .nice-select ul.list {
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     margin-bottom: 18px;
 }
@@ -5399,7 +5401,7 @@ form.reservation-form .nice-select ul.list {
 
 .blog-item-two .post-thumbnail .post-date a {
     text-align: center;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     padding: 8px 18px;
     font-size: 30px;
@@ -5544,7 +5546,7 @@ form.reservation-form .nice-select ul.list {
 
 .blog-details-wrapper .blog-post .post-thumbnail .post-date a {
     text-align: center;
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
     padding: 8px 18px;
     font-size: 30px;
@@ -5626,7 +5628,7 @@ form.reservation-form .nice-select ul.list {
     height: 2px;
     -webkit-margin-end: 15px;
     margin-inline-end: 15px;
-    background-color: #DF3F00;
+    background-color: #852e3e;
 }
 
 .blog-details-wrapper .blog-post .entry-footer .tag-links {
@@ -5676,7 +5678,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .blog-details-wrapper .blog-post .entry-footer .social-share a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -5818,13 +5820,13 @@ form.reservation-form .nice-select ul.list {
 }
 
 .post-navigation-item .post-nav-item .content h6:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .post-navigation-item .post-nav-item .content span.post-date {
     font-size: 14px;
     line-height: 19px;
-    color: #DF3F00;
+    color: #852e3e;
     margin-bottom: 10px;
 }
 
@@ -6048,7 +6050,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .sidebar-widget-area .category-widget .category-nav li a:hover {
-    border-color: #DF3F00;
+    border-color: #852e3e;
 }
 
 .sidebar-widget-area .recent-post-widget .recent-post-list .post-thumbnail-content {
@@ -6090,7 +6092,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .sidebar-widget-area .recent-post-widget .recent-post-list .post-thumbnail-content .post-title-date h5:hover {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .sidebar-widget-area .contact-info-widget {
@@ -6141,7 +6143,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .sidebar-widget-area .contact-info-widget .contact-info-content .main-btn:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -6163,7 +6165,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .sidebar-widget-area .tag-cloud-widget a:hover {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     color: #fff;
 }
 
@@ -6298,7 +6300,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .about-company-widget .footer-content .footer-logo {
-    background-color: #DF3F00;
+    background-color: #852e3e;
     padding: 20px 35px;
 }
 
@@ -6313,7 +6315,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .about-company-widget .footer-content form label i {
-    color: #DF3F00;
+    color: #852e3e;
 }
 
 .about-company-widget .footer-content form .form_control {
@@ -6458,7 +6460,7 @@ form.reservation-form .nice-select ul.list {
 }
 
 .fancy-features-item .icon i{
-    color: #ffc107;
+    color: #852e3e;
 }
 
 .check-style-one li::before {
@@ -6477,7 +6479,7 @@ form.reservation-form .nice-select ul.list {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: rgb(223, 63, 0);
+    background-color: #852e3e;
     font-size: 12px;
 }
 
@@ -6559,11 +6561,11 @@ form.reservation-form .nice-select ul.list {
 }
 .fancy-features-item .icon {
     transition: 0.4s;
-    border: 2px solid #ffc107;
+    border: 2px solid #852e3e;
  
 }
 .fancy-features-item:hover .icon {
   
-    border: 2px solid #380000;
+    border: 2px solid #fad4d4;
  
 }
